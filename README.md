@@ -1,104 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Developer Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        .container {
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-        }
-        h1 {
-            font-size: 2.5rem;
-            color: #333;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        p {
-            font-size: 1.2rem;
-            margin-bottom: 20px;
-        }
-        .profile-pic {
-            display: block;
-            margin: 0 auto 20px;
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-        }
-        .skills, .projects {
-            margin-bottom: 20px;
-        }
-        .skills ul, .projects ul {
-            list-style: none;
-            padding: 0;
-        }
-        .skills li, .projects li {
-            background: #f0f0f5;
-            margin: 5px 0;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        a {
-            color: #007acc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
+<h1>안녕하세요, 웹 개발자입니다!</h1>
+<p>
+    7년간 웹 개발 분야에서 경험을 쌓으며, 고품질의 웹사이트와 애플리케이션을 제작해 왔습니다. 
+    깔끔하고 효율적인 코드를 작성하는 것을 좋아하며, 프로젝트와 블로그, 코딩 챌린지를 통해 
+    꾸준히 성장하고 있습니다.
+</p>
 
-    <div class="container">
-        <img src="profile-pic.jpg" alt="Profile Picture" class="profile-pic">
-        <h1>Hello, I'm a Web Developer!</h1>
-        <p>
-            With 7 years of experience in web development, I specialize in building high-quality websites and applications. 
-            I'm passionate about writing clean, efficient code and continuously improving my skills through projects, blogging, 
-            and coding challenges.
-        </p>
+<h2>기술 스택</h2>
+<p>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"/>&nbsp
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>&nbsp
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>&nbsp
+    <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>&nbsp
+    <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>&nbsp
+    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>&nbsp
+    <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/>&nbsp
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/>&nbsp
+    <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/>&nbsp
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/>&nbsp
+</p>
 
-        <div class="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML, CSS, JavaScript</li>
-                <li>React, Angular, Vue.js</li>
-                <li>Node.js, Express</li>
-                <li>Python, Django, Flask</li>
-                <li>MySQL, MongoDB</li>
-                <li>Version Control (Git/GitHub)</li>
-            </ul>
-        </div>
+<h2>프로젝트</h2>
+<ul style="list-style: none; padding: 0;">
+    <li><a href="https://github.com/ZeroBin-dev/MYMSG_BE">프로젝트 1 - 카카오톡 카피코딩</a></li>
+    <li><a href="https://github.com/ZeroBin-dev/CusCenBot">프로젝트 2 - 고객센터 챗봇</a></li>
+    <li><a href="https://github.com/ZeroBin-dev/YoutubePlayerWithKS">프로젝트 3 - 유튜브 플레이어</a></li>
+</ul>
 
-        <div class="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li><a href="https://github.com/yourusername/project1">Project 1 - E-commerce Website</a></li>
-                <li><a href="https://github.com/yourusername/project2">Project 2 - Social Media App</a></li>
-                <li><a href="https://github.com/yourusername/project3">Project 3 - Portfolio Website</a></li>
-            </ul>
-        </div>
-
-        <p>
-            You can find more of my work on <a href="https://github.com/yourusername">GitHub</a> or connect with me on 
-            <a href="https://www.linkedin.com/in/yourusername">LinkedIn</a>.
-        </p>
-    </div>
-
-</body>
-</html>
+<p>
+    더 많은 작업물을 보시려면 <a href="https://github.com/ZeroBin-dev">GitHub</a>와  
+    <a href="https://www.linkedin.com/in/yourusername">티스토리 블로그</a>를 통해 확인하실 수 있습니다.
+</p>
