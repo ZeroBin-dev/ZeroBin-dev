@@ -40,5 +40,5 @@
 
 <p>
     더 많은 작업물을 보시려면 <a href="https://github.com/ZeroBin-dev">GitHub</a>와  
-    <a href="https://www.linkedin.com/in/yourusername">티스토리 블로그</a>를 통해 확인하실 수 있습니다.
+    <a href="https://zerobin-dev.tistory.com/">티스토리 블로그</a>를 통해 확인하실 수 있습니다.
 </p>
